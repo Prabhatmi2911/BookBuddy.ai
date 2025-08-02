@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .blankrow {
+            height: 50em;
+        }
+
+        .sidelinks a {
+            text-decoration: none;
+
+            color: black;
+        }
+
+        .sidelinks a:hover {
+            text-decoration: none;
+            color: blue;
+        }
+
+        .sidelinks ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row shadow-lg p-3 mb-5 bg-white rounded">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                <div class="container-fluid top">
+                    <a class="navbar-brand" href="#"><h2><i class="bi bi-backpack2"></i>BookBuddy.ai</h2></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex " role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-2 side-nav border border-primary shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <h4><i class="bi bi-backpack2"></i>BookBuddy.ai</h4>
+                            </div>
+                            <hr>
+                            <div class="row sidelinks">
+                                <ul>
+                                    <li><a href="#">
+                                            <h6><i class="bi bi-collection-fill">&nbsp;</i>Collections</h6>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <h6><i class="bi bi-book-fill"></i>&nbsp;</i>Standard Books</h6>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <h6><i class="bi bi-people"></i>&nbsp;</i>Foreign Authors</h6>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <h6><i class="bi bi-journal-album"></i>&nbsp;</i>e-book</h6>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <h6><i class="bi bi-journal-bookmark"></i>&nbsp;</i>Best Selling</h6>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row blankrow">&nbsp;</div>
+                    <hr>
+                    <div class="row">
+                        User
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="row">
+                        <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                            <div class="card-footer text-body-secondary">
+                                2 days ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="adv11.webp" alt="Card image cap img-fluid" style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                 <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="adv2.jpg" alt="Card image cap img-fluid" style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                 <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="adv3.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="thril1.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="thril2.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="thril3.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="bus1.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="bus2.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="bu3.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="psy1.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="psy2.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="psy3.webp" alt="Card image cap img-fluid"style="height: 20rem; width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="Explorer">Card title</h5>
+                                        <p class="card-text">Most popular book</p>
+                                        <a href="#" class="btn btn-primary">Book details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "e81e5444-98fb-4a37-8158-85ea680c75db", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "a861972c-705c-417c-b41b-c9bcdbc6152c", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+
+</html>
